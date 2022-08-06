@@ -6,43 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeatherApp</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css" />
   </head>
   <body>
-    <div class="input d-flex justify-content-center flex-column align-items-center">
+    <div
+      class="input d-flex justify-content-center flex-column align-items-center"
+    >
       <input type="text" class="Cityname" placeholder="Enter a Cityname" />
       <button class="submit">Show</button>
     </div>
     <main class="d-flex justify-content-center">
-        <div class="cont d-flex flex-column justify-content-center  align-items-center">
-            <div class="Cname">
-                <p>Tehran</p>
-            </div>
-            <div class="deg">
-                <p>31<sup style="color: #fff;">o</sup>C</p>
-            </div>
-            <div class="Skystatus">
-                <p>clear</p>
-            </div>
+      <div
+        class="cont d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="Cname">
+          <p class="city"></p>
         </div>
+        <div class="deg">
+          <p class="temp"></p>
+        </div>
+        <div class="Skystatus">
+          <p class="status"></p>
+        </div>
+      </div>
     </main>
     <footer class="d-flex justify-content-center">
-        <div class="var">
-            <div class="row">
-                <div class="col d-flex flex-column justify-content-center align-items-center">
-                    <p>Feels Like</p>
-                    <p class="Degreg">29<sup style="color: #000;">o</sup>C</p>
-                </div>
-                <div class="col d-flex flex-column justify-content-center align-items-center">
-                    <p>Humidity</p>
-                    <p class="Humidity">14%</p>
-                </div>
-                <div class="col d-flex flex-column justify-content-center align-items-center">
-                    <p>Wind Speed</p>
-                    <p class="WindSpeed">3Km/h</p>
-                </div>
-            </div>
+      <div class="var">
+        <div class="row">
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <p>Feels Like</p>
+            <p class="Degreg"></p>
+          </div>
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <p>Humidity</p>
+            <p class="Humidity"></p>
+          </div>
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <p>Wind Speed</p>
+            <p class="WindSpeed"></p>
+          </div>
         </div>
+      </div>
     </footer>
     <script src="./app.js"></script>
   </body>
