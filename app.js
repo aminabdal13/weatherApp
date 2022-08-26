@@ -38,6 +38,9 @@ function HandeledShowCity(e){
         
                     variable.style.display = "block";
                 }catch (err){
+                    temp.innerHTML = "";
+                    status.innerText = ""
+                    variable.style.display = 'none';
                     city.innerText = 'city not found';
                 }
             })        
